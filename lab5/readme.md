@@ -22,7 +22,7 @@ cmake --build `pwd` --target statMain
 
 Как нетрудно догадаться, у lab_link_type всего лишь два допустимых значения: first и second
 
-###Возникает ошибка "cannot open shared object file: No such file or directory"
+##Возникает ошибка "cannot open shared object file: No such file or directory"
 Ошибка может возникать даже в том случае, если файл тип shared_library существует по указанному пути. Проблема заключается в
 системной переменной LD_LIBRARY_PATH. Чтобы ваша программа заработала, добавьте в эту переменную путь к папке, где лежат файлы
 типа shared_library
